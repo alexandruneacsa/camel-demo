@@ -1,5 +1,4 @@
-# Camel Proxy Service
-
+# Camel Demo
 This is a Spring Boot application using Apache Camel that proxies public REST endpoints from `https://jsonplaceholder.typicode.com`.
 
 ## ✅ Features
@@ -8,14 +7,8 @@ This is a Spring Boot application using Apache Camel that proxies public REST en
 - Uses **Netty HTTP** as the REST component
 - Logs response using a Camel processor
 - Routes for:
-    - `/proxy/posts`
-    - `/proxy/users`
-    - `/proxy/comments`
-    - `/proxy/todos`
-    - `/proxy/photos`
-- Includes a functional **JUnit 5 integration test**
-
-## 🚀 How to Run
-
-```bash
-mvn spring-boot:run
+    - `/posts`
+    - `/users`
+    - `/comments`
+    - `/todos`
+    - `/photos`
